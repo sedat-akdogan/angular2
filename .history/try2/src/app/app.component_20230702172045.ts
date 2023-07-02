@@ -13,8 +13,15 @@ import { HomeComponent } from './home/home.component';
         </section>
     </main>
     `,
-    styleUrls: ['./app.component.scss']
+    // templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    imports: [
+        HomeComponent,
+        'standalone: true,
+    ],
 })
+
+
 export class AppComponent {
     title = 'homes';
 }

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 
 @Component({
+    standalone: true,
     selector: 'app-root',
     template: `
     <main>
@@ -13,8 +14,12 @@ import { HomeComponent } from './home/home.component';
         </section>
     </main>
     `,
-    styleUrls: ['./app.component.scss']
+    // templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    
 })
+
+
 export class AppComponent {
     title = 'homes';
 }

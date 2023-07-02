@@ -12,7 +12,7 @@ import { HomeComponent } from './home/home.component';
             <app-home></app-home>
         </section>
     </main>
-    `,
+  `,
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {

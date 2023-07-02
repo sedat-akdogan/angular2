@@ -10,10 +10,16 @@ import { HomeComponent } from './home/home.component';
         </header>
         <section class="content">
             <app-home></app-home>
-        </section>
-    </main>
-    `,
-    styleUrls: ['./app.component.scss']
+    </section>
+  </main>
+`,
+    // templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+
+    imports: [
+        HomeComponent,
+    ],
+
 })
 export class AppComponent {
     title = 'homes';

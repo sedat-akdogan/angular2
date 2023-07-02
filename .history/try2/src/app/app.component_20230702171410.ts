@@ -12,8 +12,14 @@ import { HomeComponent } from './home/home.component';
             <app-home></app-home>
         </section>
     </main>
-    `,
-    styleUrls: ['./app.component.scss']
+`,
+    // templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+
+    imports: [
+        HomeComponent,
+    ],
+
 })
 export class AppComponent {
     title = 'homes';
